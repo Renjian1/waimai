@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,user-scalable=no,minimal-ui">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/zhifu.css">
+	<link rel="stylesheet" href="https://at.alicdn.com/t/font_561437_ib3seuyavfi.css">
+	<link rel="stylesheet" href="https://at.alicdn.com/t/font_561437_9br2t61x1ma.css">
+	<script src="js/rem.js"></script>
+</head>
+<body>
+	<div class="box">
+		<h1>&gt;</h1>
+		<h2>提交订单</h2>
+	</div>
+	<div class="box2">
+		<div class="ling" style="line-height: 0.41rem;">
+			<span class="iconfont icon-Pathx" style="font-size: 0.37rem;line-height:0.75rem ;display:block;margin-left: 0.7rem;float: left;"></span>
+			<h1>现在起订，10：30起送</h1>
+		</div>
+	</div>
+
+
+	<div class="box3">
+		<div class="box4">
+			<h1>凯通大厦</h1>
+			<h2>任健（先生）186********</h2>
+		</div>
+		<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;送达时间：10:50左右</h1>
+	</div>
+
+	<div class="box5">
+		<img src="img/timg.jpg" alt="">
+		<h1>魏家凉皮</h1>
+		<div class="box6"></div>
+		<div class="box7">
+			<img src="img/c444dd619fe99b6a2671d4e9c296cc7071fc4918eaa1-r0bJUI_fw658.png" alt="">
+			<div class="box7_wenzi">
+				<h1>秘制凉皮</h1>
+				<h2>￥27</h2>
+			</div>
+			<div class="box7_2"><h1>x3</h1></div>
+		</div>
+		<div class="box8">
+			<h1>包装费</h1>
+			<h2>￥3</h2>
+		</div>
+		<div class="box8 second">
+			<h1>包装费</h1>
+			<h2>￥3</h2>
+		</div>
+		<div class="box8 third">
+			<h1>商家代金券</h1>
+			<h2>暂无可用</h2>
+		</div>
+		<div class="box8">
+			<h1>红包/抵用券</h1>
+			<h2>暂无可用</h2>
+		</div>
+	</div>
+
+	<div class="box9">
+		<div class="box10">
+			<h1>支付方式</h1>
+			<h2>在线支付</h2>
+		</div>
+		<div class="box10 disi">
+			<h1>备注</h1>
+			<h2>口味/偏好要求</h2>
+		</div>
+	</div>
+
+	<div class="box11">
+		<h1>合计</h1>
+		<div class="box11_1">
+			<h1>去结算</h1>
+
+			<div class="ding1">
+				<div class="ding2">
+					<div class="ding2_1">
+						<h1>选择支付方式</h1>
+						<h2 id="dingding">X</h2>
+					</div>
+					<div class="ding2_left">
+						<i class="iconfont icon-qianbao" style="line-height: 1.4rem;font-size: 0.59rem;color:#f25f5c;"></i>
+						<i class="iconfont icon-unie654" style="line-height: 1.4rem;font-size: 0.59rem;color:#1aa1e6;"></i>
+						<i class="iconfont icon-weixin-copy" style="line-height: 1.4rem;font-size: 0.59rem;color:#0eef53;"></i>
+						<i class="iconfont icon-yinhangqia" style="line-height: 1.4rem;font-size: 0.59rem;color:#ff9f38;"></i>
+						<i class="iconfont icon-078" style="line-height: 1.4rem;font-size: 0.59rem;color:#ef0ed7;"></i>
+					</div>
+					<div class="ding2_right">
+						<a href="mima.html"><div class="yue"><h1>账户余额</h1></div></a>
+						<a href="mima2.html"><div class="yue"><h1>支付宝</h1></div></a>
+						<a href="mima3.html"><div class="yue"><h1>微信</h1></div></a>
+						<div class="yue"><h1>银行卡支付</h1></div>
+						<div class="yue"><h1>其他第三方支付</h1></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<h2>￥33.5</h2>
+		
+	</div>
+</body>
+</html>
+<script>
+	let ding1=document.querySelector(".ding1");
+	let box11_1=document.querySelector(".box11_1");
+	let bacha=document.querySelector("#dingding")
+	console.log(bacha)
+	// console.log(ding1,box11_1)
+	box11_1.onclick=function(){
+		ding1.style.display="block"
+	}
+	bacha.onclick=function(event){
+		event.stopPropagation()//阻止父元素的触发事件
+		ding1.style.display="none"
+	}
+</script>

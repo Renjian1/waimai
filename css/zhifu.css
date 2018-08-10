@@ -1,0 +1,317 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #e4e4e4;
+	position: relative;
+}
+.box{
+	width: 7.5rem;
+	height: 0.9rem;
+	background-color: #17e2d6;
+	line-height: 0.9rem;
+}
+.box2{
+	width: 7.5rem;
+	height: 2.29rem;
+	background-color: #17e2d6;
+	text-align: center;
+	overflow: hidden;
+	line-height: 2.29rem;
+}
+.box h1{
+	font-size: 0.5rem;
+	color: #fff;
+	margin: 0;
+	margin-left: 0.24rem;
+	float: left;
+}
+.box h2{
+	font-size: 0.26rem;
+	color: #fff;
+	margin: 0;
+	font-weight: 500;
+	margin-left: 3.2rem;
+}
+.ling{
+	width: 4.08rem;
+	height: 0.75rem;
+	background: rgba(0, 0, 0,0.5);
+	border-radius: 0.33rem;
+	margin-left: 1.71rem;
+	margin-top: 0.32rem;
+	line-height: 0.41rem;
+	text-align: center;
+}
+.ling h1{
+	font-size: 0.2rem;
+	color: #fff;
+	font-weight: 500;
+	display: block;
+	float: left;
+	line-height: 0.75rem;
+}
+
+
+
+
+.box3{
+	width: 7rem;
+	height: 2.7rem;
+	background: #fff;
+	margin-left: 0.25rem;
+	position: absolute;
+	top: 2.19rem;
+}
+.box3 h1{
+	font-size: 0.27rem;
+	font-weight: 500;
+}
+.box4{
+	width: 100%;
+	height: 1.71rem;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+.box4 h1{
+	font-size: 0.32rem;
+	margin-top: 0.46rem;
+}
+.box4 h2{
+	font-size: 0.22rem;
+	margin-top: 0.34rem;
+}
+.box5{
+	width: 7rem;
+	height: 5rem;
+	background-color: #fff;
+	margin-left: 0.25rem;
+	margin-top: 1.91rem;
+}
+.box5 img{
+	width: 53px;
+	height: 53px;
+	margin-top: 0.18rem;
+	margin-left: 0.53rem;
+	display: block;
+	float: left;
+	margin-bottom: 0.27rem;
+}
+.box5 h1{
+	font-size: 0.23rem;
+	margin: 0;
+	display: block;
+	float: left;
+	margin-left: 0.34rem;
+	margin-top: 0.34rem;
+}
+.box6{
+	width: 100%;
+	height: 1.39rem;
+}
+.box7{
+	width: 100%;
+	height: 1.39rem;
+	background-color: #e6f6f5;
+	position: relative;
+}
+.box7 img{
+	width: 1.18rem;
+	height: 1.18rem;
+	display: block;
+	position: absolute;
+	top: 0.1rem;
+	left: 0.53rem;
+	margin: 0;
+	float: left;
+}
+.box7_wenzi{
+	width: 4.69rem;
+	height: 0.3rem;
+	float: left;
+	margin-left: 0.35rem;
+	margin-top: 0.36rem;
+	line-height: 0.3rem;
+}
+.box7_wenzi h1{
+	font-size: 0.28rem;
+	margin: 0;
+	float: left;
+}
+.box7_wenzi h2{
+	font-size: 0.2rem;
+	margin: 0;
+	float: right;
+}
+.box7_2{
+	width: 1.04rem;
+	height: 0.2rem;
+	margin-left: 1.9rem;
+	margin-top: 1rem;
+	position: absolute;
+	line-height: 0.2rem;
+}
+.box7_2 h1{
+	font-size: 0.15rem;
+	font-weight: 500;
+	color: blue;
+	margin: 0;
+}
+.box8{
+	width: 6rem;
+	height: 0.4rem;
+	margin-top: 0.2rem;
+	padding-left: 0.49rem;
+	padding-right: 0.49rem;
+	line-height: 0.4rem;
+}
+.box8 h1{
+	font-size: 0.22rem;
+	font-weight: 500;
+	margin: 0;
+	float: left;
+}
+.box8 h2{
+	font-size: 0.22rem;
+	font-weight: 500;
+	margin: 0;
+	float: right;
+}
+.second{
+	width: 6rem;
+	height: 0.4rem;
+	margin-top: 0.1rem;
+	padding-left: 0.49rem;
+	padding-right: 0.49rem;
+	line-height: 0.4rem;
+	border-bottom: 1px solid #ccc;
+}
+.third{
+	width: 6rem;
+	height: 0.4rem;
+	margin-top: 0.1rem;
+	padding-left: 0.49rem;
+	padding-right: 0.49rem;
+	line-height: 0.4rem;
+}
+.box9{
+	width: 7rem;
+	height: 2.01rem;
+	background-color: #fff;
+	margin-left: 0.25rem;
+	margin-top: 0.25rem; 
+}
+.box10{
+	width: 7rem;
+	height: 1rem;
+	border-bottom: 1px solid #ccc;
+	line-height: 1rem;
+}
+.box10 h1{
+	font-size: 0.23rem;
+	margin-left: 0.5rem;
+	float: left;
+}
+.box10 h2{
+	font-size: 0.23rem;
+	margin-right: 0.5rem;
+	float: right;
+}
+.disi{
+	width: 7rem;
+	height: 1rem;
+	line-height: 1rem;
+}
+.box11{
+	width: 7.5rem;
+	height: 1rem;
+	background-color: pink;
+	margin-top: 0.25rem;
+	line-height: 1rem;
+}
+.box11 h1{
+	font-size: 0.27rem; 
+	margin-left: 0.7rem;
+	float: left;
+}
+.box11_1{
+	width: 2.38rem;
+	height: 1rem;
+	background-color: #51e4af;
+	float: right;
+	line-height: 1rem;
+	text-align: center;
+	position: relative;
+}
+.box11 h2{
+	font-size: 0.27rem; 
+	margin-left: 0.7rem;
+	float: right;
+	margin-right: 0.2rem;
+}
+.box11_1 h1{
+	font-size: 0.28rem;
+	color: #fff;
+	font-weight: 500;
+}
+.ding1{
+	width: 7.5rem;
+	/* height: 7.33rem; */
+	height: 13rem;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: -13rem;
+	left: -5.12rem;
+	display: none;
+}
+/* .ding1.item{
+	display: block;
+} */
+.ding2{
+	width: 7.5rem;
+	height: 7.34rem;
+	background-color: #fff;
+	margin-top: 5.66rem;
+}
+.ding2_1{
+	width: 7rem;
+	height: 1.23rem;
+	margin-left: 0.25rem;
+		border-bottom: 1px dashed #000;
+	line-height: 1.23rem;
+
+}
+.ding2_1 h1{
+	font-size: 0.28rem;
+	font-weight: 500;
+	margin-left: 2.6rem;
+	color: #000;
+}
+.ding2_left{
+	width: 1.03rem;
+	height: 6.07rem;
+	margin-left: 0.25rem;
+	float: left;
+}
+.ding2_left i{
+	display: block;
+	height: 1.09rem;
+}
+.ding2_right{
+	width: 4.89rem;
+	height: 6.07rem;
+	float: left;
+}
+.yue{
+	width: 100%;
+	height: 1.1rem;
+	line-height: 1.1rem;
+	border-bottom: 1px dashed #000;
+}
+.yue h1{
+	font-size: 0.25rem;
+	font-weight: 500;
+	margin-left: 0.28rem;
+	color: #000;
+}
